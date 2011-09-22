@@ -1,0 +1,47 @@
+#loading {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+}
+
+#root {
+    background: url(images/bg6.jpg);
+    width: 1024px;
+    height: 600px;
+}
+
+.yFrontPage .flow {
+    float: left;
+}
+
+.yFrontPage .flow img {
+    margin: 50px 0 50px 50px;
+}
+
+.yBrandingPage {
+    z-index: 1;
+    background: RGBA(240, 240, 240, .8);
+}
+
+.yWikiPage {
+    background: RGBA(255, 255, 255, .5);
+    padding: 7px;
+}
+
+.yWikiPage img {
+  padding: 20px 0 0 0;
+}
+
+.yWikiPage .loading {
+   padding: 230px 0 0 330px;
+}
+
+.yWikiPage p, 
+.yWikiPage h1, 
+.yWikiPage h2, 
+.yWikiPage h3 {
+  padding: 10px 0 0 20px;
+  line-height: 120%;
+} 
